@@ -1,0 +1,165 @@
+/* Election Details Container */
+.election-details-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.election-title {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.election-date {
+    text-align: center;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.election-description {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #2c3e50;
+}
+
+.candidates-title {
+    color: #2c3e50;
+    margin: 30px 0 20px 0;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.candidates-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.candidates-table th {
+    background: #3498db;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.candidates-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ecf0f1;
+    vertical-align: middle;
+}
+
+.candidates-table tr:hover {
+    background: #f8f9fa;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #3498db;
+}
+
+.voteee {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.voteee:hover {
+    transform: scale(1.1);
+}
+
+.voteee img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Dark Theme */
+.dark .election-details-container {
+    background: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.dark .election-title {
+    color: #ffffff;
+}
+
+.dark .election-description {
+    background: #2d2d2d;
+    color: #e0e0e0;
+}
+
+.dark .candidates-title {
+    color: #ffffff;
+}
+
+.dark .candidates-table {
+    background: #2d2d2d;
+    color: #e0e0e0;
+}
+
+.dark .candidates-table th {
+    background: #4a5568;
+}
+
+.dark .candidates-table td {
+    border-bottom: 1px solid #4a5568;
+}
+
+.dark .candidates-table tr:hover {
+    background: #3d3d3d;
+}
+
+/* Blockchain Voting Section */
+.blockchain-voting-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.blockchain-title {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.blockchain-description {
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.dark .blockchain-voting-section {
+    background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+}
+
+.dark .blockchain-title {
+    color: #e2e8f0;
+}
+
+.dark .blockchain-description {
+    color: rgba(226, 232, 240, 0.8);
+}
+
+
+
+
+
+
